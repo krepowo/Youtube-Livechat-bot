@@ -29,3 +29,4 @@ There must be @everyone for message prefix
 ![image](https://user-images.githubusercontent.com/84110735/187074416-2f03f4a4-4787-4bb5-86ba-1d72cf5d1a66.png)
 
 
+ᵗʰᶦˢ ᶦˢ ᵐʸ ᶠᶦʳˢᵗ ʲᵃᵛᵃ ᵖʳᵒʲᵉᶜᵗ ˣᴰ
