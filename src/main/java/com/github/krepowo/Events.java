@@ -55,13 +55,13 @@ public class Events extends ListenerAdapter {
                                 embed.setFooter("Chat Moderator", "https://images-ext-2.discordapp.net/external/BaPwAwAOi_956J4mhAf1ZFJNDM3JHJszdoRLPvxqsvQ/https/cdn.discordapp.com/emojis/805643675359117352.png");
                             } else if(item.isAuthorOwner()) {
                                 embed.setColor(Color.yellow);
-                                embed.setFooter("abang Tobi", "https://images-ext-1.discordapp.net/external/ZkQRlQO7AajT_90yk6XuZd5ws1fbxKASuhnAfe4aNsM/https/yt3.ggpht.com/98uz9ud0Ho9ylf4eYTo5wxGSqXf0fUAbhrDVngjQN1pY5RlKbmF1SE4tXr4PE5i05MjM3-sLzYs%3Ds800-c-k-c0x00ffffff-no-rj");
+                                embed.setFooter("Channel Owner", "https://images-ext-1.discordapp.net/external/ZkQRlQO7AajT_90yk6XuZd5ws1fbxKASuhnAfe4aNsM/https/yt3.ggpht.com/98uz9ud0Ho9ylf4eYTo5wxGSqXf0fUAbhrDVngjQN1pY5RlKbmF1SE4tXr4PE5i05MjM3-sLzYs%3Ds800-c-k-c0x00ffffff-no-rj");
                             } else if(item.isAuthorVerified()){
                                 embed.setColor(Color.CYAN);
                                 embed.setFooter("Verified User", "https://images-ext-2.discordapp.net/external/BaPwAwAOi_956J4mhAf1ZFJNDM3JHJszdoRLPvxqsvQ/https/cdn.discordapp.com/emojis/805643675359117352.png");
                             } else {
                                 embed.setColor(Color.green);
-                                embed.setFooter("Normal User :3", "https://images-ext-2.discordapp.net/external/BaPwAwAOi_956J4mhAf1ZFJNDM3JHJszdoRLPvxqsvQ/https/cdn.discordapp.com/emojis/805643675359117352.png");
+                                embed.setFooter("Normal User", "https://images-ext-2.discordapp.net/external/BaPwAwAOi_956J4mhAf1ZFJNDM3JHJszdoRLPvxqsvQ/https/cdn.discordapp.com/emojis/805643675359117352.png");
                             }
 
                             embed.setDescription(item.getMessage());
@@ -91,6 +91,6 @@ public class Events extends ListenerAdapter {
 
     @Override
     public void onReady(@NotNull ReadyEvent event) {
-        event.getJDA().getPresence().setActivity(Activity.watching("Queen's_sesad"));
+        event.getJDA().getPresence().setActivity(Activity.watching("Youtube Live"));
     }
 }
